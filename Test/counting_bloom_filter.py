@@ -4,6 +4,7 @@ import hashlib
 import random
 
 
+
 def gen_para(file_len, b_num, p):
     length = math.ceil(-(b_num * math.log(p)) / ((math.log(2)) ** 2))
     h_num = math.ceil((length / b_num) * math.log(2))

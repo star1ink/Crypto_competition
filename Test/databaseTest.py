@@ -15,3 +15,4 @@ user = {
     'list': [1,2,3]
 }
 result = collection.insert_one(user)
+
